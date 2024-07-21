@@ -19,12 +19,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       home: HomeScreen(),
       debugShowCheckedModeBanner: false,
-      theme: ThemeData().copyWith(
-        useMaterial3: true,
-      ),
     );
   }
 }

@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final ToDoController controller = Get.put(ToDoController());
   @override
   void initState() {
-    // TODO: implement initState
+    super.initState();
     controller.checkData();
   }
 
